@@ -1,0 +1,40 @@
+.product-card {
+  width: 220px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.product-image {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  display: block;
+  padding: 10px;
+}
+
+.product-info {
+  padding: 10px;
+}
+
+.product-info h3 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.product-info p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-info button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background: #ffd814;
+  cursor: pointer;
+  border-radius: 4px;
+}
